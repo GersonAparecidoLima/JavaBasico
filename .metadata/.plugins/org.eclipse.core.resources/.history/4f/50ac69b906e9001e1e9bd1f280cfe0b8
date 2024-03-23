@@ -20,9 +20,6 @@ public class Main {
 		
 		//System.out.println(resultado );
 		
-		//classe StringBuilder do Java, que foi criada 
-		//justamente para essa finalidade: proporcionar a criação de uma string mutável sem degradação do desempenho. 
-		//É, literalmente, um construtor de strings.
 		
 		// StringBuilder, basta instanciá-la em um objeto e usar o método append para que um novo conteúdo seja concatenado à string,
 	 

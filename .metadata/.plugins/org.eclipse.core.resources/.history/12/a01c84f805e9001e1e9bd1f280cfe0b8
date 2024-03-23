@@ -1,0 +1,26 @@
+package curso_progamacoes;
+
+import javax.swing.JOptionPane;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//Java Basico pos
+		//System.out.println("Ola,  Eclipse!!!");
+		//JOptionPane.showMessageDialog(null,"Ola,  Eclipse!!!");
+		//Pos 
+		//Exemplo de mudança de uma string usando reatribuição
+		
+		String resultado = "";
+		resultado = resultado + "Nome do candidato 1\";
+		resultado = resultado + "Nome do candidato 2\n";
+		
+		System.out.println(resultado );
+		
+	 
+		
+
+	}
+
+}
