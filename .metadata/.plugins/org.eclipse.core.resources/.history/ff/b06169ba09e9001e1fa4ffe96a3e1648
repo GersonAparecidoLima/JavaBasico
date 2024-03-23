@@ -1,0 +1,39 @@
+package curso_progamacoes;
+
+import javax.swing.JOptionPane;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//Java Basico pos
+		//System.out.println("Ola,  Eclipse!!!");
+		//JOptionPane.showMessageDialog(null,"Ola,  Eclipse!!!");
+		//Pos 
+		//Exemplo de mudança de uma string usando reatribuição
+		//\n quebra linha na string
+		
+				
+		//String resultado = "";
+		//resultado = resultado + "Nome do candidato 1\n";
+		//resultado = resultado + "Nome do candidato 2\n";
+		
+		//System.out.println(resultado );
+		
+		//classe StringBuilder do Java, que foi criada 
+		//justamente para essa finalidade: proporcionar a criação de uma string mutável sem degradação do desempenho. 
+		//É, literalmente, um construtor de strings.
+		
+		// StringBuilder, basta instanciá-la em um objeto e usar o método append para que um novo conteúdo seja concatenado à string,
+	 
+		StringBuilder resultado = new StringBuilder();
+		resultado.append("Nome do candidato 1\n");
+		resultado.append("Nome do candidato 2\n");
+		
+		//Posteriormente, para obter do objeto StringBuilder uma string tradicional, basta usar o método toString().
+		String stringResultante = resultado.toString();
+		System.out.println(stringResultante);
+
+	}
+
+}

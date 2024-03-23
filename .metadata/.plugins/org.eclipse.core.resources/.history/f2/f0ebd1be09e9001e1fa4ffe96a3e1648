@@ -16,7 +16,7 @@ public class Main {
 		String resultadoDoAluno = (nota >= 6 ? "Aprovado" :"Reprovado");
 		
 		
-		System.out.println(resultadoDoAluno);
+		System.out.println("");
 
 	}
 
