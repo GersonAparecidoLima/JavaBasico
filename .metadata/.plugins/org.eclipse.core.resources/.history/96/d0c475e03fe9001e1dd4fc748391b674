@@ -30,17 +30,11 @@ public class Main {
 	 	
 		System.out.println("\n**********************************\n");
 		
-		//Casting
-		//É a conversão explícita de um tipo para outro.
-		
 		int a, b1;
 		double resultado;
 		a = 5;
 		b1 = 2;
-		//quando eu coloco o (double)
-		//eu aplico o Casting, de forma que o copilado não 
-		//aredonda mas
-		resultado = (double) a / b1;
+		resultado = a / b1;
 		System.out.println(resultado);
 		
 	}

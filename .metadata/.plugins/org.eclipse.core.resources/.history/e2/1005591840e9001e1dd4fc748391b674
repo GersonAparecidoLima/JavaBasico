@@ -37,9 +37,6 @@ public class Main {
 		double resultado;
 		a = 5;
 		b1 = 2;
-		//quando eu coloco o (double)
-		//eu aplico o Casting, de forma que o copilado não 
-		//aredonda mas
 		resultado = (double) a / b1;
 		System.out.println(resultado);
 		
