@@ -1,0 +1,23 @@
+package curso_progamacoes;
+
+import javax.swing.JOptionPane;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Pos Uso do operador ternário
+		
+		//condição seja avaliada como verdadeira, o resultado receberá valorSeVerdadeiro. 
+		//Caso seja avaliada como falsa, receberá valorSeFalso
+		//resultado = condição ? valorSeVerdadeiro : valorSeFalso
+		
+		 
+		int nota = 9;
+		String resultadoDoAluno = (nota >= 6 ? "Aprovado" :"Reprovado");
+		
+		
+		System.out.println(resultadoDoAluno);
+
+	}
+
+}

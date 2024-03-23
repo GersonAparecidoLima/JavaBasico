@@ -46,8 +46,11 @@ public class Main {
 	      resposta.append(valor1 + " Mod " + valor2 + " = " + mod + "\n");
 	 
 	      JOptionPane.showMessageDialog(null, resposta);
-	       
-	 	
+	 
+	  
+	 
+		
+		
 	}
 
 }

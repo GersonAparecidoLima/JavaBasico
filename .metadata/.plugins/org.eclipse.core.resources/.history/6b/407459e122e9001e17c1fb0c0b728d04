@@ -43,11 +43,14 @@ public class Main {
 	      resposta.append(valor1 + " - " + valor2 + " = " + sub + "\n");
 	      resposta.append(valor1 + " * " + valor2 + " = " + mult + "\n");
 	      resposta.append(valor1 + " / " + valor2 + " = " + div + "\n");
-	      resposta.append(valor1 + " Mod " + valor2 + " = " + mod + "\n");
+	      resposta.append(valor1 + " Mod 5 " + valor2 + " = " + mod + "\n");
 	 
 	      JOptionPane.showMessageDialog(null, resposta);
-	       
-	 	
+	 
+	  
+	 
+		
+		
 	}
 
 }

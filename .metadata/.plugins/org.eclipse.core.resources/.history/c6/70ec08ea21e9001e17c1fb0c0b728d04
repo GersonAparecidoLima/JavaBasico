@@ -8,7 +8,7 @@ public class Main {
 
 		  double valor1 = 0;
 	      double valor2 = 0;
-	      double soma, sub, mult, div, mod;
+	      double soma, sub, mult, div;
 	 
 	      String valorStr;
 
@@ -17,7 +17,6 @@ public class Main {
 	      //é usada para usuário insira algum valor.
 	      try {
 	         valorStr = JOptionPane.showInputDialog(null, "Informe o primeiro número:");
-	         //parseDouble utilizado para converter em ponto flutuante (double) 
 	         valor1 = Double.parseDouble(valorStr);
 	      } catch (NumberFormatException ex) {
 	         JOptionPane.showMessageDialog(null, "Número inválido. Considerando 0 para número 1.");
@@ -34,20 +33,19 @@ public class Main {
 	      sub = valor1 - valor2;
 	      mult = valor1 * valor2;
 	      div = valor1 / valor2;
-	      mod = valor1 % valor2;
-	      // StringBuilder, basta instanciá-la em um objeto
-	      // o método append para que um novo conteúdo seja concatenado à string,
-	      
+	 
 	      StringBuilder resposta = new StringBuilder();
 	      resposta.append(valor1 + " + " + valor2 + " = " + soma + "\n");
 	      resposta.append(valor1 + " - " + valor2 + " = " + sub + "\n");
 	      resposta.append(valor1 + " * " + valor2 + " = " + mult + "\n");
 	      resposta.append(valor1 + " / " + valor2 + " = " + div + "\n");
-	      resposta.append(valor1 + " Mod " + valor2 + " = " + mod + "\n");
 	 
 	      JOptionPane.showMessageDialog(null, resposta);
-	       
-	 	
+	 
+	  
+	 
+		
+		
 	}
 
 }

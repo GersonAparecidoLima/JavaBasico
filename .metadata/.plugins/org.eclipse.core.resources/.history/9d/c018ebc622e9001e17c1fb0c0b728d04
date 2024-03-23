@@ -8,7 +8,7 @@ public class Main {
 
 		  double valor1 = 0;
 	      double valor2 = 0;
-	      double soma, sub, mult, div, mod;
+	      double soma, sub, mult, div;
 	 
 	      String valorStr;
 
@@ -34,7 +34,6 @@ public class Main {
 	      sub = valor1 - valor2;
 	      mult = valor1 * valor2;
 	      div = valor1 / valor2;
-	      mod = valor1 % valor2;
 	      // StringBuilder, basta instanciá-la em um objeto
 	      // o método append para que um novo conteúdo seja concatenado à string,
 	      
@@ -43,11 +42,13 @@ public class Main {
 	      resposta.append(valor1 + " - " + valor2 + " = " + sub + "\n");
 	      resposta.append(valor1 + " * " + valor2 + " = " + mult + "\n");
 	      resposta.append(valor1 + " / " + valor2 + " = " + div + "\n");
-	      resposta.append(valor1 + " Mod " + valor2 + " = " + mod + "\n");
 	 
 	      JOptionPane.showMessageDialog(null, resposta);
-	       
-	 	
+	 
+	  
+	 
+		
+		
 	}
 
 }
