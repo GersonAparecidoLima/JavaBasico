@@ -1,15 +1,10 @@
-package curso_progamacoes;
-
 import java.util.Locale;
 import java.util.Scanner;
 
-import javax.swing.JOptionPane;
-
 public class Main {
-
 	public static void main(String[] args) {
-
-Locale.setDefault(Locale.US);
+		
+		Locale.setDefault(Locale.US);
 		
 		Scanner sc = new Scanner(System.in);
 		
@@ -24,5 +19,4 @@ Locale.setDefault(Locale.US);
 		sc.close();
 		
 	}
-
 }
