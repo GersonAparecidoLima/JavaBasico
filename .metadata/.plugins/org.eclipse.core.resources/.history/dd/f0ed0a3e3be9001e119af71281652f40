@@ -34,7 +34,6 @@ public class Main {
 		//%c => char
 		System.out.printf("Record: %d years old, code %d and gender: %c%n", age, code, gender);
 		System.out.println();
-		//%.8f oito casa decimal
 		System.out.printf("Measue with eight decimal places: %.8f%n", measure);
 		//concatenar vários elementos
 		//utilizando os marcadores %f => ponto flutuante
