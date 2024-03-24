@@ -1,0 +1,20 @@
+package banco.tela;
+
+import javax.swing.JOptionPane;
+
+import banco.modelo.Cliente;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		 Cliente cliente = new Cliente();
+		 
+	      cliente.nome = "Anita";
+	      cliente.cidade = "Marília";
+	      cliente.estado = "São Paulo";
+	 
+	      JOptionPane.showMessageDialog(null, cliente.listarDados());
+
+	}
+
+}

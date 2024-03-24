@@ -1,0 +1,14 @@
+package banco.modelo;
+
+public class Cliente {
+	
+	   String nome;
+	   String cidade;
+	   String estado;
+	 
+	   String listarDados() {
+	      return "NOME: " + nome + "\n" +
+	         "CIDADE: " + cidade + "\n" +
+	         "ESTADO: " + estado;
+	   }
+}
