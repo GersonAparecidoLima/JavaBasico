@@ -1,8 +1,9 @@
 package curso_progamacoes;
-
 import entities.Product;
 import java.util.Locale;
 import java.util.Scanner;
+
+
 
 public class Main {
 
