@@ -19,16 +19,16 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter radius: ");
 
+		//Instanciondo objeto
+		Calculator calc = new Calculator();
 		
 		double radius = sc.nextDouble();
-		
-		//aqui eu vou usar a propria classe
-		double c = Calculator.circumference(radius);
-		double v = Calculator.volume(radius);
+		double c = calc.circumference(radius);
+		double v = calc.volume(radius);
 		
 		System.out.printf("Circumference: %.2f%n", c);
 		System.out.printf("Volume: %.2f%n", v);
-		System.out.printf("PI value: %.2f%n", Calculator.PI);
+		System.out.printf("PI value: %.2f%n", calc.PI);
 		
 		sc.close();
 	}
