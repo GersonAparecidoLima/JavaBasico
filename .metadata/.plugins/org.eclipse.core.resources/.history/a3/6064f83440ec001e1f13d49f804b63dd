@@ -19,7 +19,6 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter radius: ");
 
-		//Instanciondo objeto
 		Calculator calc = new Calculator();
 		
 		double radius = sc.nextDouble();
